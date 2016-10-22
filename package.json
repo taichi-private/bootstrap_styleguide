@@ -1,0 +1,38 @@
+{
+  "name": "purecss_styleguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:styleguide": "npm run styleguideTasks && npm run local_http_server:styleguide",
+    "local_http_server:styleguide": "./node_modules/http-server/bin/http-server styleguide",
+    "styleguideTasks": "gulp sassTasks && gulp fontsTasks&& gulp styleguideTasks",
+    "pugTasks": "gulp pugTasks",
+    "sassTasks": "gulp sassTasks",
+    "fontsTasks": "gulp fontsTasks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.7.3",
+    "http-server": "^0.9.0",
+    "sass-styleguide-with-pug": "latest"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "purecss": "^0.6.0"
+  }
+}

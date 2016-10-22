@@ -1,0 +1,14 @@
+[
+  {
+    "name": "base"
+  },
+  {
+    "name": "components"
+  },
+  {
+    "name": "layouts"
+  },
+  {
+    "name": "vendors"
+  }
+]

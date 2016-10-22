@@ -1,0 +1,54 @@
+/*
+@title: available glyphs
+@pug: components/glyphicons/available_glyphs.pug
+@description: glyphiconsのサンプル
+@tags: component,glyphicons
+*/
+
+.bs-glyphicons {
+  margin: 0 -10px 20px;
+  overflow: hidden;
+  li {
+    float: left;
+    width: 25%;
+    height: 115px;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #fff;
+    &:hover {
+      color: #fff;
+      background-color: #563d7c;
+    }
+  }
+  .glyphicon {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word; /* Help out IE10+ with class names */
+  }
+}
+.bs-glyphicons-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+/*
+@title: buttons
+@pug: components/glyphicons/buttons.pug
+@description: glyphiconsのサンプル
+@tags: component,glyphicons
+*/
+
+/*
+@title: alert
+@pug: components/glyphicons/alert.pug
+@description: glyphiconsのサンプル
+@tags: component,glyphicons
+*/
